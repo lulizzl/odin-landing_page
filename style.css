@@ -2,6 +2,7 @@
 
 .header {
     display: flex;
+    justify-content: space-between;
     background-color: #1f2937;
 }
 
@@ -12,12 +13,14 @@
 
     .header-links {
         display: flex;
+        gap: 15px;
         font-size: 18px;
         color:#e5e7eb;
     }
 
 .sign-up {
     display: flex;
+    justify-content: space-between;
     background-color: #1f2937;
 }
 
@@ -35,6 +38,7 @@
         .sign-up-button {
             background-color: #3882f6;
             color: #f9faf8;
+            width: 150px;
         }
     
     .image-placeholder {
@@ -46,11 +50,20 @@
     font-size: 36px;
     font-weight: 800;
     color: #1f2937;
+    text-align: center;
 }  
 
 .image-container {
     display: flex;
+    justify-content: center;
 }
+
+    .captioned-image {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 250px;
+    }
 
 .quotation-container {
     background-color: #e5e7eb;
@@ -63,7 +76,10 @@
     }
 
 
+
+
 .call-to-action-container {
     display: flex;
     background-color: #3882f6;
+    justify-content: space-between;
 }
