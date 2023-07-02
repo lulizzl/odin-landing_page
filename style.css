@@ -5,14 +5,48 @@
     background-color: #1f2937;
 }
 
-.header-links {
-    display: flex;
-}
+    h1 {
+        font-size: 24px;
+        color: #f9faf8;
+    }
+
+    .header-links {
+        display: flex;
+        font-size: 18px;
+        color:#e5e7eb;
+    }
 
 .sign-up {
     display: flex;
     background-color: #1f2937;
 }
+
+        .sign-up-title {
+            font-size: 48px;
+            font-weight: 800;
+            color:#f9faf8
+        }
+
+        .sign-up-content {
+            font-size: 18px;
+            color: #e5e7eb;
+        }
+
+        .sign-up-button {
+            background-color: #3882f6;
+            color: #f9faf8;
+        }
+    
+    .image-placeholder {
+        background-color: #6e7074;
+        color: #f9faf8;
+    }
+
+.info-title {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+}  
 
 .image-container {
     display: flex;
@@ -21,6 +55,13 @@
 .quotation-container {
     background-color: #e5e7eb;
 }
+
+    .quotation {
+        font-size: 36px;
+        color: #1f2937;
+        font-style: italic;
+    }
+
 
 .call-to-action-container {
     display: flex;
