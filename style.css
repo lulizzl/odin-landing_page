@@ -1,5 +1,8 @@
+
+
 .header {
     display: flex;
+    background-color: #1f2937;
 }
 
 .header-links {
@@ -8,12 +11,18 @@
 
 .sign-up {
     display: flex;
+    background-color: #1f2937;
 }
 
 .image-container {
     display: flex;
 }
 
+.quotation-container {
+    background-color: #e5e7eb;
+}
+
 .call-to-action-container {
     display: flex;
+    background-color: #3882f6;
 }
