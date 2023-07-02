@@ -1,0 +1,19 @@
+.header {
+    display: flex;
+}
+
+.header-links {
+    display: flex;
+}
+
+.sign-up {
+    display: flex;
+}
+
+.image-container {
+    display: flex;
+}
+
+.call-to-action-container {
+    display: flex;
+}
